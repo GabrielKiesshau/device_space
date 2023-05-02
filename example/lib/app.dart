@@ -1,4 +1,3 @@
-
 import 'package:device_space/device_space.dart';
 import 'package:flutter/material.dart';
 
@@ -13,6 +12,7 @@ class _AppState extends State<App> {
   @override
   void initState() {
     super.initState();
+    
     initDeviceSpace();
   }
 
